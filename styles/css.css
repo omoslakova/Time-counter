@@ -1,0 +1,73 @@
+body {
+    background-color: #fafafa;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/20-Most-Common-Work-from-Home-Job-Titles.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.time-count {
+    background: #fff;
+    box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+    border-radius: 30px;
+    width: 656px;
+    height: 279px;
+    padding: 75px 86px;
+}
+
+.time-count_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-count_val {
+    min-width: 81px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    text-align: center;
+    color: #5D71DD;
+}
+
+.time-count_separator {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 74px;
+    text-align: center;
+    color: #5D71DD;
+    margin: 0 33px;
+}
+
+.time-count_title {
+    margin: 0;
+    margin-bottom: 35px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.time-count_text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #4d4d4d;
+}
+
+.time-count_item {
+    text-align: center;
+}
+
+.visually-hidden {
+    position: fixed;
+    transform: scale(0);
+  }
